@@ -1,0 +1,23 @@
+{
+  "name": "my-new-project",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@wdio/appium-service": "^8.7.0",
+    "@wdio/cli": "^8.7.0",
+    "@wdio/cucumber-framework": "^8.7.0",
+    "@wdio/local-runner": "^8.7.0",
+    "@wdio/spec-reporter": "^8.7.0",
+    "appium": "^2.0.0-beta.61",
+    "appium-uiautomator2-driver": "^2.14.0",
+    "appium-xcuitest-driver": "^4.21.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.ts"
+  },
+  "dependencies": {
+    "cucumber": "^6.0.7"
+  }
+}

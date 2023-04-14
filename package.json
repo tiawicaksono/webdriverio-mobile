@@ -15,7 +15,8 @@
     "typescript": "^5.0.4"
   },
   "scripts": {
-    "wdio": "wdio run ./wdio.conf.ts"
+    "wdioIOS": "wdio run ./wdioIOS.conf.ts",
+    "wdioAndroid": "wdio run ./wdioAndroid.conf.ts"
   },
   "dependencies": {
     "cucumber": "^6.0.7"
